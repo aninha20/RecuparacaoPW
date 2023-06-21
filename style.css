@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #f2efeb;
+}
+strong{
+    color: #116A7B;
+}
+h2{
+    color: #884A39;
+}
+hr{
+    color: #116A7B;
+}
+
+/*============ Header ==========*/
+
+.top-navbar {
+    position: relative;
+    z-index: 10;
+}
+
+
+.top-navbar .navbar-light .navbar-nav .nav-link {
+    color: #010101;
+    font-size: 18px;
+    padding: 20px 30px;
+    border-radius: 7px;
+    text-transform: uppercase;
+    border-bottom-left-radius: 40px;
+}
+.top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover {
+  background: #116A7B;
+  color: #ffffff;
+}
+.top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
+    background: #116A7B;
+    color: #ffffff;
+    border-radius: 7px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    border: none;
+    border-radius: 0px;
+    padding: 10px;
+    box-shadow: 2px 5px 6px rgba(0,0,0,0.5);
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu a {
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu a.dropdown-item:hover {
+    background: #116A7B;
+    color: #ffffff;
+}
+.navbar-light .navbar-toggler:hover {
+    background: #116A7B;
+}
+
+.nav-item {
+    padding-left: 35px;
+}
+
+.navbar-brand img{
+    width: 150px;
+    border-radius: 50%;
+}
+/*========About=====*/
+.container {
+    display: flex;
+    align-items: center;
+  }
+.container p{
+    font-size: 30px;
+}
+.container img {
+    margin-right: 50px; 
+  }
+
+  /*======*/
+  .p-5 img{
+    width: 350px;
+    border-radius: 20px;
+  }
+.about{
+    display: flex;
+    align-items: center;
+}
+
+
+/*=========contatos========*/
+.contatos {
+    text-align: center;
+    padding: 15px;
+    background: #f2efeb;
+}
+.contatos h2 {
+    padding-top: 30px;
+}
+
+.contatos p{
+    padding-bottom: 40px;
+}
+.contatos-icons {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    padding: 40px;
+    font-size: 28px;
+    
+}
+
+.contatos-icons svg:hover {
+    stroke: #0B2447;
+    transform: scale(1.5);
+}
+.contatos .mail{
+    padding: 40px;
+    color: #19376D;
+    
+}
+
+.contatos .twitter{
+    padding: 40px;
+    color: #1A5F7A;
+}
+
+.contatos .face{
+    padding: 40px;
+    color: #159895;
+}
+
+.contatos .instagram{
+    padding: 40px;
+    color: #576CBC;
+}
+.contatos .phone{
+    padding: 40px;
+    color: #569DAA;
+}
